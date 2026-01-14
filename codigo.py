@@ -1,4 +1,5 @@
 import pyautogui
+import time
 
 pyautogui.PAUSE = 0.8  # pause for 0.8 second after each PyAutoGUI call
 
@@ -11,6 +12,8 @@ pyautogui.press('enter')
 # step 2: login with your credentials
 pyautogui.write('https://dlp.hashtagtreinamentos.com/python/intensivao/login')
 pyautogui.press('enter')
+
+time.sleep(3)  # wait for the page to load
 
 # step 3: Import dadabase (products.csv)
 # step 4: register a product

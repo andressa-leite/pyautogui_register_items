@@ -1,5 +1,7 @@
 import pyautogui
 
+pyautogui.PAUSE = 0.8  # pause for 0.8 second after each PyAutoGUI call
+
 # step 1: access the website - https://dlp.hashtagtreinamentos.com/python/intensivao/login
 # abrir o chrome
 pyautogui.press('win')
